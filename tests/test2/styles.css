@@ -1,0 +1,24 @@
+.title {
+    color: red;
+}
+.contain {
+    width: 445px;
+    height: 700px;
+
+    padding: 15px;
+   
+    display: inline-block;
+
+    
+    margin: 23px;
+    border-radius: 4%;
+    background-color: rgb(184, 200, 221);
+    
+;
+}
+
+p {
+    color: brown;
+
+}
+
