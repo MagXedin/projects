@@ -1,0 +1,192 @@
+.allcontent {
+    width: 1024px;
+    margin:auto;
+}
+
+:root {
+    --dark-orange:#f97316;
+    --light-orange:#ffedd5;
+
+
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+h1 {
+
+    font-size: 60px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+.header__p {
+    font-size: 20px;
+    font-weight: 200;
+    margin:40px 0;
+}
+
+.header__button {
+    font-size: 22px;
+    color: white;
+    background-color:var(--dark-orange);
+    padding:15px 30px;
+    border-radius: 10px;
+    box-shadow: none;
+}
+
+h2 {
+
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.header {
+    background-image: url("images/hero.jpg");
+    background-size: cover;
+    height: 800px;
+    
+
+
+    
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+
+.logo {
+    width: 100px;
+
+}
+
+.perks {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.perk {
+    background-color: #d6d3d1;
+    margin: 10px;
+    padding: 20px;
+    
+    border-radius: 10px;
+    text-align: center;
+}
+
+.perk__icons {
+    background-color: var(--dark-orange);
+    color:white;
+    font-size: 24px;
+    padding: 14px;
+    border-radius: 5px;
+    
+
+
+}
+
+h4{
+    margin: 15px 0 ;
+}
+
+.description-picture {
+    display: flex;
+    justify-content: space-around;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: 600;
+    margin: 40px 0;
+}
+
+.about__description {
+    flex-basis: 50%;
+}
+
+.about__image{
+    max-width: 100%;
+    flex-basis: 50%;
+    width: 500px;
+}
+
+p {
+    padding: 10px 0;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: normal;
+
+
+}
+
+
+.reviews__entries {
+    width: 600px;
+    margin: auto;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.reviews__entry{
+    border-bottom-style: solid ;
+    border-bottom-width: 1px;
+    border-bottom-color: #d6d3d1;
+    padding:24px 0;
+}
+
+.pricing__plans{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pricing__plan {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.pricing__p_orange {
+    color: var(--dark-orange);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+h5 {
+    font-size: 24px;
+    font-weight: 600;
+
+}
+
+.pricing__button {
+    color: var(--dark-orange);
+    font-size: 16px;
+    background-color:var(--light-orange);
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.phone {
+    display: flex;
+}
