@@ -45,14 +45,16 @@ h2 {
     margin-bottom: 50px;
 }
 
-.header {
+.header-background {
     background-image: url("images/hero.jpg");
     background-size: cover;
     height: 800px;
-    
+      
+}
 
-
-    
+.header {
+    width: 1024px;
+    margin:auto;
 }
 
 
@@ -70,6 +72,21 @@ nav {
 .logo {
     width: 100px;
 
+}
+
+
+
+ /* section 2 начните разговаривать */
+
+
+ 
+
+
+
+.about{  
+    width: 1024px;
+    margin:auto;
+    
 }
 
 .perks {
@@ -105,6 +122,7 @@ h4{
 .description-picture {
     display: flex;
     justify-content: space-around;
+    align-items: bottom;
 }
 
 h3 {
@@ -113,8 +131,9 @@ h3 {
     margin: 40px 0;
 }
 
-.about__description {
+.speak-correctly {
     flex-basis: 50%;
+    padding-bottom: 25px;
 }
 
 .about__image{
@@ -122,6 +141,20 @@ h3 {
     flex-basis: 50%;
     width: 500px;
 }
+
+
+ /* section 3 запишитесь */
+
+ .signup-background {
+    background-color: var(--light-orange);
+
+
+ }
+
+ .signup {
+    width: 1024px;
+    margin:auto;
+ }
 
 p {
     padding: 10px 0;
@@ -132,11 +165,26 @@ p {
 
 }
 
+ /* section 4 отзывы */
+
+
+ .reviews-background {
+
+    background-color: #fafaf9;
+ }
+
+ .reviews {
+    padding: 30px 0;
+   
+
+  }
 
 .reviews__entries {
     width: 600px;
     margin: auto;
 }
+
+
 
 h4 {
     font-size: 18px;
@@ -151,6 +199,18 @@ h4 {
     padding:24px 0;
 }
 
+.reviews__entry:last-child{
+    margin-bottom: 55px;
+}
+
+
+
+.pricing {
+    width: 1024px;
+    margin: auto;
+    margin-bottom: 70px;
+}
+
 .pricing__plans{
     display: flex;
     justify-content: space-between;
@@ -160,8 +220,35 @@ h4 {
     border-style: solid;
     border-width: 1px;
     border-radius: 10px;
-    padding: 10px;
+    padding: 20px;
+    flex-basis: 33%;
+    margin: 20px;
+    
+
+    position: relative;
+
 }
+
+.plan__conditions{
+    margin-bottom: 40px;
+}
+
+.pricing__button{
+    position: absolute;
+    bottom: 0;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    color: var(--dark-orange);
+    font-size: 16px;
+    background-color:var(--light-orange);
+    display: block;
+    width: 90%;
+    box-shadow: none;
+    
+    
+}
+
 
 .pricing__p_orange {
     color: var(--dark-orange);
@@ -175,16 +262,32 @@ h5 {
 
 }
 
-.pricing__button {
-    color: var(--dark-orange);
-    font-size: 16px;
-    background-color:var(--light-orange);
+
+
+.plan__conditions {
+    font-size: 14px;
+    line-height: 2;
+    margin-top: 20px;
+
 }
 
+
+.footer-background {
+    background-color: #d6d3d1;
+
+}
 footer {
     display: flex;
     justify-content: space-between;
+    width: 1024px;
+    margin: auto;
 
+    padding: 40px;
+
+}
+
+.socials {
+    font-size: 24px;
 }
 
 .phone {
