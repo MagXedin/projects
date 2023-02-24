@@ -6,6 +6,7 @@
 :root {
     --dark-orange:#f97316;
     --light-orange:#ffedd5;
+    --grey-text: #78716C;
 
 
 }
@@ -23,8 +24,9 @@ h1 {
 
 .header__p {
     font-size: 20px;
-    font-weight: 200;
+    font-weight: 400;
     margin:40px 0;
+    line-height: 1.2;
 }
 
 .header__button {
@@ -34,6 +36,11 @@ h1 {
     padding:15px 30px;
     border-radius: 10px;
     box-shadow: none;
+    border: none;
+}
+
+.header__button:hover {
+    background-color:#fd6b03
 }
 
 h2 {
@@ -64,6 +71,24 @@ nav {
     justify-content: space-between;
     align-items: center;
 
+}
+
+nav a:first-child{
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+   
+    color: var(--dark-orange);
 }
 
 
@@ -123,6 +148,7 @@ h4{
     display: flex;
     justify-content: space-around;
     align-items: bottom;
+    padding-bottom: 60px;
 }
 
 h3 {
@@ -147,6 +173,7 @@ h3 {
 
  .signup-background {
     background-color: var(--light-orange);
+    
 
 
  }
@@ -154,13 +181,41 @@ h3 {
  .signup {
     width: 1024px;
     margin:auto;
+    padding-top: 5px;
+    padding-bottom: 140px;
+ }
+
+ form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 60px;
+ }
+
+ input {
+    padding: 14px;
+    margin: 6px;
+    border-radius: 6px;
+    box-shadow: none;
+    border: solid;
+    border-width: 1px;
+    border-color: #78716C;
+    font-size: 20px;
+ }
+
+ .signup p {
+    font-size: 18px;
+    text-align: center;
+    margin-top: -35px;
  }
 
 p {
     padding: 10px 0;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 16px;
     line-height: normal;
+    color: #78716C;
 
 
 }
@@ -233,14 +288,30 @@ h4 {
 
 }
 
-.plan__conditions{
-    margin-bottom: 40px;
+
+.plan__conditions {
+    font-size: 13px;
+    line-height: 2;
+    margin-top: 20px;
+    margin-bottom: 60px;
+
 }
+li {
+    color: #78716C;
+}
+
+.fa-check {
+    color: green;
+    font-size: 16px;
+    margin-right: 5px;
+}
+
 
 .pricing__button{
     position: absolute;
     bottom: 0;
-    margin: 30px;
+    left: 15px;
+    margin: 30px 0;
     padding: 10px;
     border-radius: 5px;
     color: var(--dark-orange);
@@ -251,9 +322,15 @@ h4 {
     box-shadow: none;
     border:none;
     
-    
 }
 
+.pricing__button:hover{
+    background-color: #ffd6a0;
+}
+
+.pricing__button:active{
+    color: #fd5f03;
+}
 
 .pricing__p_orange {
     color: var(--dark-orange);
@@ -269,32 +346,55 @@ h5 {
 
 
 
-.plan__conditions {
-    font-size: 14px;
-    line-height: 2;
-    margin-top: 20px;
 
-}
+
 
 
 .footer-background {
     background-color: #d6d3d1;
 
 }
+
 footer {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 1024px;
     margin: auto;
 
-    padding: 40px;
+    padding: 64px;
 
 }
 
 .socials {
     font-size: 24px;
+
 }
+
+.socials i:hover{
+    color: var(--dark-orange);
+}
+
+.fa-brands{
+    margin-right: 6px;
+
+    color: black;
+}
+
+
 
 .phone {
     display: flex;
+    align-items: center;
+}
+
+.p-phone {
+padding: 0px;
+padding-left: 6px;
+color:  #78716C;
+font-weight: 400;
+}
+
+.email {
+    color:var(--grey-text)
 }

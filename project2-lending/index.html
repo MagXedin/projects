@@ -23,8 +23,8 @@
                 <nav>
                     <img class="logo" src="images/logo.svg" alt="">
                     <div class="links">
-                        <a href="">Стоимость</a>
-                        <a href="">Отзывы</a>
+                        <a href="#pricing-link">Стоимость</a>
+                        <a href="#reviews-link">Отзывы</a>
 
                     </div>
                     
@@ -45,7 +45,7 @@
         </div>
 
 
-        <div class="about-background"> 
+        <section class="about-background"> 
 
             <div class="about">
 
@@ -60,14 +60,14 @@
                     </div>
 
                     <div class="perk">
-                        <i class="fa-regular fa-globe perk__icons"></i>
+                        <i class="fa-solid fa-globe perk__icons"></i>
                         <h4 class="perk__h">Современный язык</h3>
                         <p class="about__p">Изучайте актуальный язык, общаясь с преподавателем на современные темы. </p>
                     </div>
 
                     <div class="perk">
 
-                        <i class="fa-light fa-user perk__icons"></i>
+                        <i class="fa-regular fa-user perk__icons"></i>
                         <h4 class="perk__h">Индивидуальные занятия</h3>
                         <p class="about__p">Преподаватель занимается только с Вами и Вы учитесь намного быстрее. </p>
                     </div>
@@ -98,7 +98,7 @@
 
             </div>
 
-        </div>
+        </section>
         
 
                 <div class="signup-background">
@@ -106,6 +106,16 @@
                     <div class="signup">
                         <h2>Запишитесь на бесплатный урок уже сегодня</h2>
                         <p>Преподаватель определит ваш уровень и Вы пройдете полноценный первый урок </p>
+
+                        <form>
+                            
+                            <input type="text" id="name" name="name" placeholder="Ваше имя">
+                            
+                            <input type="text" id="phone" name="phone" placeholder="Ваш телефон">
+
+                            <button class="header__button">Записаться на первый урок</button>
+                            
+                        </form>
 
                     </div>
 
@@ -115,7 +125,7 @@
                 
             <div class="reviews-background">
 
-                <div class="reviews">
+                <section id="reviews-link" class="reviews">
 
                     <h2>У нас уже более 500 довольных учеников!</h2>
 
@@ -153,7 +163,7 @@
                   
 
 
-                </div>
+                </section>
 
                 
 
@@ -165,7 +175,7 @@
 
             
 
-            <div class="pricing">
+            <section id="pricing-link" class="pricing">
 
                 <h2 class="pricing__header">Наши абонементы</h2>
 
@@ -177,9 +187,9 @@
     
                     <div class="plan__conditions"> 
                         <ol>
-                            <li>8 уроков</li>
-                            <li>занятия 2 раза в неделю</li>
-                            <li>индивидуальный уроки</li>
+                            <li><i class="fa-solid fa-check"></i>8 уроков</li>
+                            <li><i class="fa-solid fa-check"></i>занятия 2 раза в неделю</li>
+                            <li><i class="fa-solid fa-check"></i>индивидуальный уроки</li>
     
                         </ol>
                     </div>
@@ -196,10 +206,10 @@
     
                     <div class="plan__conditions">
                         <ol>
-                            <li>24 уроков</li>
-                            <li>занятия 2 раза в неделю</li>
-                            <li>индивидуальный уроки</li>
-                            <li>Разговорный клуб</li>
+                            <li><i class="fa-solid fa-check"></i>24 уроков</li>
+                            <li><i class="fa-solid fa-check"></i>занятия 2 раза в неделю</li>
+                            <li><i class="fa-solid fa-check"></i>индивидуальные уроки</li>
+                            <li><i class="fa-solid fa-check"></i>разговорный клуб</li>
     
                         </ol>
                     </div>
@@ -217,11 +227,11 @@
                     <div class="plan__conditions">
                         <ol>
     
-                            <li>58 уроков</li>
-                            <li>занятия 2 раза в неделю</li>
-                            <li>индивидуальный уроки</li>
-                            <li>беспланый разговорный клуб</li>
-                            <li>бесплатная заморозка абонемента</li>
+                            <li><i class="fa-solid fa-check"></i>58 уроков</li>
+                            <li><i class="fa-solid fa-check"></i>занятия 2 раза в неделю</li>
+                            <li><i class="fa-solid fa-check"></i>индивидуальные уроки</li>
+                            <li><i class="fa-solid fa-check"></i>беспланый разговорный клуб</li>
+                            <li><i class="fa-solid fa-check"></i>бесплатная заморозка абонемента</li>
     
                         </ol>
                     </div>
@@ -238,7 +248,7 @@
                 
 
 
-            </div>
+            </section>
 
         <div class="footer-background">
 
@@ -246,16 +256,16 @@
 
                 <div class="phone">
                     <i class="fa-solid fa-phone"></i>
-                    <p>+7 (123) 456-78-90</p>
+                    <p class="p-phone">+7 (123) 456-78-90</p>
 
 
                 </div>
 
                 <div class="socials">
 
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-square-facebook"></i>
-                    <i class="fa-brands fa-twitter"></i>
+                    <a href="www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="www.facebook.com"><i class="fa-brands fa-square-facebook"></i></a> 
+                    <a href="www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
 
 
                 </div>
