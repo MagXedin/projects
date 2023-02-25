@@ -81,6 +81,7 @@ nav a:first-child{
 
 nav a {
     text-decoration: none;
+    color: black;
 }
 
 nav a:visited {
